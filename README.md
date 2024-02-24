@@ -25,7 +25,7 @@ ln -s $HOME/my-ide/home.nix $HOME/.config/home-manager/home.nix
 ### Fist time setup
 
 1. Make sure to replace all user specific strings like username, home directory
-paths, etc.
+paths, etc. in `shared/constants.nix`.
 2. Navigate to the directory of this project and run `nix run . switch` to install
 `home-manager`.
 3. Run `home-manager switch` to install all packages and load the respective

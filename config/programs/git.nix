@@ -1,12 +1,14 @@
 {
   pkgs,
   ...
-} : {
+} : let
+  const = import ../../shared/constants.nix;
+in {
   programs.git = {
     enable = true;
 
-    userName = "client-side96";
-    userEmail = "dev@clientside.tech";
+    userName = const.gitUser;
+    userEmail = const.email;
   };
 
   programs.lazygit = {
