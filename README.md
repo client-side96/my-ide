@@ -30,3 +30,25 @@ paths, etc. in `shared/constants.nix`.
 `home-manager`.
 3. Run `home-manager switch` to install all packages and load the respective
 configuration files.
+
+## Programs
+
+- [x] `home-manager` (Package manager)
+- [x] `git` (Version control)
+- [x] `lazygit` (Git UI)
+- [x] `yazi` (File explorer)
+- [x] `ripgrep` (Search text)
+- [x] `fzf` (Search files)
+- [ ] `wezterm` (Terminal)
+- [ ] `helix` (Editor)
+- [ ] `zsh` (Shell)
+- [ ] `starship` (Shell theme)
+- [ ] `lazydocker` (Docker UI)
+- [ ] `glow` (Markdown viewer)
+- [ ] `homebrew` (+ Casks)
+- [ ] `gh` (Github CLI)
+
+## Scripts
+
+- [ ] Open file explorer from `helix`
+
